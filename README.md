@@ -66,12 +66,12 @@ make build
 
 See config [example](./conf/config.json, ./conf/tasks/*.json)
 ### 参数详解
-bufferSize: 每次读取条数
-minBufferSize:  最小的写入到ch的条数，少于不写入
-flushInterval:  读取频率
-dims:   config中定义的column与clickhouse中对映
-autoSchema: 是否将config中的字段与clickhouse中的system.columns做对比
-excludeColumns: 过滤的不需要插入clickhouse的字段
+* bufferSize: 每次读取条数
+* minBufferSize:  最小的写入到ch的条数，少于不写入
+* flushInterval:  读取频率
+* dims:   config中定义的column与clickhouse中对映
+* autoSchema: 是否将config中的字段与clickhouse中的system.columns做对比
+* excludeColumns: 过滤的不需要插入clickhouse的字段
 
 ## Custom metric parser
 
