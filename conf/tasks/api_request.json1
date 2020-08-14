@@ -1,11 +1,11 @@
 {	
 
-	"name" : "api_request",
+	"name" : "api_request_sample",
 
 	"kafka": "kfk1",
-	"topic": "real_time",
+	"topic": "api_request_sample",
 	"earliest" : true,
-	"consumerGroup" : "testgroup",
+	"consumerGroup" : "api_request_sample",
 
 	"parser" : "json",
 	"clickhouse" : "ch1",

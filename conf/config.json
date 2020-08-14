@@ -1,28 +1,28 @@
 {
   "clickhouse": {
     "ch1": {
-      "db": "default",
-      "host": "127.0.0.1",
+      "db": "test",
+      "host": "123.206.178.213",
       "maxLifeTime": 300,
-      "password": "",
+      "password": "hahalwx",
       "retryTimes": 5,
-      "port": 9000,
-      "username": ""
+      "port": 9100,
+      "username": "root"
     }
   },
   "kafka": {
     "kfk1": {
-      "brokers": "127.0.0.1:9092",
+      "brokers": "123.206.178.213:9092",
       "sasl": {
         "password": "",
         "username": ""
       },
-      "Version": "0.10.2.1"
+      "Version": "2.5.0"
     }
   },
   "common": {
     "bufferSize": 90000,
-    "minBufferSize": 2000,
+    "minBufferSize": 1000,
     "flushInterval": 5,
     "logLevel": "debug"
   }

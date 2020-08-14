@@ -3,8 +3,8 @@
 	"name" : "logstash_sample",
 
 	"kafka": "kfk1",
-	"topic": "logstash",
-	"consumerGroup" : "logstash_sample_ck",
+	"topic": "logstash_sample",
+	"consumerGroup" : "logstash_sample",
 
 	"parser" : "json",
 	"clickhouse" : "ch1",

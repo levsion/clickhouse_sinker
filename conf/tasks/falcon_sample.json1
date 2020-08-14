@@ -3,8 +3,8 @@
 	"name" : "faclon_sample",
 
 	"kafka": "kfk1",
-	"topic": "falcon",
-	"consumerGroup" : "falcon_sample_ck",
+	"topic": "faclon_sample",
+	"consumerGroup" : "faclon_sample",
 
 	"parser" : "json",
 	"clickhouse" : "ch1",

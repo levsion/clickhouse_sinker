@@ -1,11 +1,11 @@
 {
-  "name": "daily_request",
-  "kafka": "kfk",
-  "topic": "topic",
+  "name": "daily_request_sample",
+  "kafka": "kfk1",
+  "topic": "daily_request_sample",
   "earliest": true,
-  "consumerGroup": "group",
-  "parser": "gjson_extend",
-  "clickhouse": "ch",
+  "consumerGroup": "daily_request_sample",
+  "parser": "json",
+  "clickhouse": "ch1",
   "tableName": "daily",
   "dims": [
     {
@@ -16,15 +16,18 @@
     {
       "name": "level",
       "type": "String",
-      "sourceName": "data_level"
+      "sourceName": "level"
     },
     {
       "name": "total",
       "type": "UInt64",
-      "sourceName": "data_total"
+      "sourceName": "total"
     }
   ],
+  "@desc_of_autoSchema" : "auto schema will auto fetch the schema from clickhouse",
+  "autoSchema" : true,
   "@desc_of_exclude_columns": "this columns will be excluded by insert SQL ",
   "excludeColumns": [],
-  "bufferSize": 2
+  "bufferSize": 1000,
+  "minBufferSize": 1
 }

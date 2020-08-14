@@ -1,22 +1,23 @@
 {
 
-	"name" : "csv_request",
+	"name" : "csv_request_sample",
 
 	"kafka": "kfk1",
-	"topic": "csv-topic",
+	"topic": "csv_request_sample",
 	"earliest" : true,
-	"consumerGroup" : "testgroup",
+	"consumerGroup" : "csv_request_sample",
 
 	"parser" : "csv",
-	"csvFormat": ["timestamp","level","message"],
+	"csvFormat": ["day","level","total"],
 	"delimiter": ",",
 	"clickhouse" : "ch1",
-	"tableName" : "kafkaqueue",
+	"tableName" : "daily",
 
 	"@desc_of_autoSchema" : "auto schema will auto fetch the schema from clickhouse",
 	"autoSchema" : true,
 	"@desc_of_exclude_columns" : "this columns will be excluded by insert SQL ",
 	"excludeColumns" : ["date"],
 
-	"bufferSize" : 90000
+	"bufferSize" : 1000,
+	"minBufferSize": 1
 }
