@@ -25,6 +25,7 @@ require (
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/k0kubun/pp v2.2.0+incompatible
 	github.com/kshvakov/clickhouse v1.3.9
+	github.com/levsion/go_commons v0.0.0-20200821071734-9dce587a890c
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-isatty v0.0.11 // indirect
 	github.com/pierrec/lz4 v2.4.0+incompatible // indirect
@@ -32,7 +33,6 @@ require (
 	github.com/prometheus/common v0.8.0 // indirect
 	github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a // indirect
 	github.com/stretchr/testify v1.4.0
-	github.com/sundy-li/go_commons v0.0.0-20191120121859-84e4cb0afce4
 	github.com/tidwall/gjson v1.1.3
 	github.com/tidwall/match v1.0.0 // indirect
 	github.com/valyala/fastjson v1.4.1

@@ -138,6 +138,8 @@ github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/kshvakov/clickhouse v1.3.9 h1:fGK8joFwxh/9HHOe+EDa0/7WnNiKYTLrjE46IhERe1U=
 github.com/kshvakov/clickhouse v1.3.9/go.mod h1:DMzX7FxRymoNkVgizH0DWAL8Cur7wHLgx3MUnGwJqpE=
+github.com/levsion/go_commons v0.0.0-20200821071734-9dce587a890c h1:JuMJDMGlnoTnNSbmJPDnO8KZx1QCffgNNKGfVsKQDe4=
+github.com/levsion/go_commons v0.0.0-20200821071734-9dce587a890c/go.mod h1:UM19C11YBC8+aRLeCD4TXQewCdBTHYEbL9gt4Q5Zpgs=
 github.com/mattn/go-colorable v0.0.9/go.mod h1:9vuHe8Xs5qXnSaW/c/ABM9alt+Vo+STaOChaDxuIBZU=
 github.com/mattn/go-colorable v0.1.4 h1:snbPLB8fVfU9iwbbo30TPtbLRzwWu6aJS6Xh4eaaviA=
 github.com/mattn/go-colorable v0.1.4/go.mod h1:U0ppj6V5qS13XJ6of8GYAs25YV2eR4EVcfRqFIhoBtE=
@@ -224,8 +226,6 @@ github.com/stretchr/testify v1.3.0 h1:TivCn/peBQ7UY8ooIcPgZFpTNSz0Q2U6UrFlUfqbe0
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
-github.com/sundy-li/go_commons v0.0.0-20191120121859-84e4cb0afce4 h1:dZjgiZTbc833VU2TDNWKuUgBg1C2EYureZFVDfgpWc8=
-github.com/sundy-li/go_commons v0.0.0-20191120121859-84e4cb0afce4/go.mod h1:l0XGxRCIFFqUsfVrkg7mEUejTN7Rps6bAQmejFsNhLY=
 github.com/tidwall/gjson v1.1.3 h1:u4mspaByxY+Qk4U1QYYVzGFI8qxN/3jtEV0ZDb2vRic=
 github.com/tidwall/gjson v1.1.3/go.mod h1:c/nTNbUr0E0OrXEhq1pwa8iEgc2DOt4ZZqAt1HtCkPA=
 github.com/tidwall/match v1.0.0 h1:Ym1EcFkp+UQ4ptxfWlW+iMdq5cPH5nEuGzdf/Pb7VmI=

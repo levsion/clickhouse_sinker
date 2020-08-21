@@ -30,10 +30,10 @@ import (
 	"github.com/housepower/clickhouse_sinker/statistics"
 	"github.com/housepower/clickhouse_sinker/task"
 	_ "github.com/kshvakov/clickhouse"
+	"github.com/levsion/go_commons/app"
+	"github.com/levsion/go_commons/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/sundy-li/go_commons/app"
-	"github.com/sundy-li/go_commons/log"
 )
 
 var (

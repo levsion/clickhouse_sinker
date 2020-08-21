@@ -29,7 +29,7 @@ import (
 	"github.com/housepower/clickhouse_sinker/health"
 	"github.com/housepower/clickhouse_sinker/prom"
 
-	"github.com/sundy-li/go_commons/log"
+	"github.com/levsion/go_commons/log"
 )
 
 var (

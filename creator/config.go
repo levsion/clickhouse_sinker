@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/k0kubun/pp"
-	"github.com/sundy-li/go_commons/log"
-	"github.com/sundy-li/go_commons/utils"
+	"github.com/levsion/go_commons/log"
+	"github.com/levsion/go_commons/utils"
 )
 
 // Config struct used for different configurations use

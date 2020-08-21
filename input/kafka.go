@@ -24,7 +24,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/heptiolabs/healthcheck"
-	"github.com/sundy-li/go_commons/log"
+	"github.com/levsion/go_commons/log"
 
 	"github.com/housepower/clickhouse_sinker/health"
 	"github.com/housepower/clickhouse_sinker/prom"

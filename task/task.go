@@ -28,7 +28,7 @@ import (
 	"github.com/housepower/clickhouse_sinker/parser"
 	"github.com/housepower/clickhouse_sinker/statistics"
 
-	"github.com/sundy-li/go_commons/log"
+	"github.com/levsion/go_commons/log"
 )
 
 // TaskService holds the configuration for each task

@@ -17,7 +17,7 @@ ORDER BY time'
 ## send the messages to kafka
 current_timestamp=`date +%s`000
 for i in `seq 1 100000`;do
- echo "{\"timestamp\" : \"${current_timestamp}\", \"name\" : \"sundy-li\", \"value\" : \"$i\" }"
+ echo "{\"timestamp\" : \"${current_timestamp}\", \"name\" : \"levsion\", \"value\" : \"$i\" }"
 done > a.json
 echo "cat /tmp/a.json | kafka-console-producer --topic topic1 --broker-list localhost:9092" > send.sh
 
