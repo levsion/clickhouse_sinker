@@ -1,6 +1,6 @@
 module github.com/housepower/clickhouse_sinker
 
-go 1.12
+go 1.14
 
 require (
 	github.com/DataDog/zstd v1.4.0 // indirect
@@ -25,7 +25,7 @@ require (
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/k0kubun/pp v2.2.0+incompatible
 	github.com/kshvakov/clickhouse v1.3.9
-	github.com/levsion/go_commons v0.0.0-20200821071734-9dce587a890c
+	github.com/levsion/go_commons v0.1.0
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-isatty v0.0.11 // indirect
 	github.com/pierrec/lz4 v2.4.0+incompatible // indirect
