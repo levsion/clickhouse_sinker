@@ -20,7 +20,7 @@
     },
     {
       "name": "event_type",
-      "type": "FixedString",
+      "type": "String",
       "sourceName": "event_type"
     },
     {
