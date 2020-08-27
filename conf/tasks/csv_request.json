@@ -19,5 +19,6 @@
 	"excludeColumns" : ["date"],
 
 	"bufferSize" : 1000,
-	"minBufferSize": 1
+	"minBufferSize": 1,
+	"flushInterval": 600
 }

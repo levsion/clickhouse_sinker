@@ -1,0 +1,74 @@
+{
+  "name": "andou_event_all",
+  "kafka": "kfk1",
+  "topic": "andou_event_all",
+  "earliest": true,
+  "consumerGroup": "andou_event_all",
+  "parser": "json",
+  "clickhouse": "ch1",
+  "tableName": "act_event",
+  "dims": [
+    {
+      "name": "act_date",
+      "type": "Date",
+      "sourceName": "act_date"
+    },
+    {
+      "name": "act_id",
+      "type": "UInt32",
+      "sourceName": "act_id"
+    },
+    {
+      "name": "event_type",
+      "type": "FixedString",
+      "sourceName": "event_type"
+    },
+    {
+      "name": "act_group",
+      "type": "UInt32",
+      "sourceName": "act_group"
+    },
+    {
+      "name": "act_channel",
+      "type": "UInt32",
+      "sourceName": "act_channel"
+    },
+    {
+      "name": "act_account",
+      "type": "UInt32",
+      "sourceName": "act_account"
+    },
+    {
+      "name": "sub_channe",
+      "type": "UInt32",
+      "sourceName": "sub_channe"
+    },
+    {
+      "name": "sub_account",
+      "type": "UInt32",
+      "sourceName": "sub_account"
+    },
+    {
+      "name": "device_id",
+      "type": "String",
+      "sourceName": "device_id"
+    },
+    {
+      "name": "add_time",
+      "type": "DateTime",
+      "sourceName": "add_time"
+    },
+    {
+      "name": "money",
+      "type": "Float32",
+      "sourceName": "money"
+    }
+  ],
+  "@desc_of_autoSchema" : "auto schema will auto fetch the schema from clickhouse",
+  "autoSchema" : true,
+  "@desc_of_exclude_columns": "this columns will be excluded by insert SQL ",
+  "excludeColumns": [],
+  "bufferSize": 1000,
+  "minBufferSize": 1,
+  "flushInterval": 10
+}

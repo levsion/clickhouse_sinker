@@ -29,5 +29,6 @@
   "@desc_of_exclude_columns": "this columns will be excluded by insert SQL ",
   "excludeColumns": [],
   "bufferSize": 1000,
-  "minBufferSize": 1
+  "minBufferSize": 1,
+  "flushInterval": 600
 }

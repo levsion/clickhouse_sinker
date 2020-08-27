@@ -21,7 +21,7 @@
     }
   },
   "common": {
-    "bufferSize": 90000,
+    "bufferSize": 10000,
     "minBufferSize": 1000,
     "flushInterval": 5,
     "logLevel": "debug"
